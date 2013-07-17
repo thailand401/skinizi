@@ -1,0 +1,55 @@
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
+p{
+	padding: 2px 0;
+	margin: 0;
+}
+#submenu{
+	padding: 5px;
+	position: absolute;
+	display: none;
+	width: 150px;
+	background: #eee;
+	border: 1px solid #aaa;
+}
+#submenu p{
+	cursor: pointer;
+	color: #999;
+}
+ul.branditem li:not(.subheader) { cursor: pointer; }
+ul.branditem li:not(.subheader):hover { background: #fafafa;}
+.dselect{background: #DFFFE3;color: #47A753 !important;font-weight: bold;}
+#submenu p:hover{
+	color: #111;
+}
+#devide{
+	border-top: 2px groove #fff;
+}
+.accordion-heading:hover{
+	background: rgb(36, 129, 173);
+}
+ul.branditem li{
+	margin-left: 10px;
+}
+.subheader{
+	padding-left: 2px;
+	margin-left: -7px !important;
+	list-style: none;
+	background: #fff;
+	color: #800000 !important;
+	cursor: pointer;
+}
+.tlt{
+	width: 500px;
+	position: fixed;
+	top: 685px;
+	opacity: 0.2;
+	font-size: 18px;
+}
+.snotice{
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 15px;
+	color: #000;
+	margin:9px 0 0 0px; 
+	width:110px;
+	line-height: 17px;
+}

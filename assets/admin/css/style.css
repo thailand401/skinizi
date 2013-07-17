@@ -1,0 +1,133 @@
+.btn-file {
+  position: relative;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.btn-file > input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  cursor: pointer;
+  border: solid transparent;
+  border-width: 0 0 100px 200px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -moz-transform: translate(-300px, 0) scale(4);
+  direction: ltr;
+}
+
+.fileupload .uneditable-input {
+  display: inline-block;
+  margin-bottom: 0;
+  vertical-align: middle;
+  cursor: text;
+}
+
+.fileupload .thumbnail {
+  display: inline-block;
+  margin-bottom: 5px;
+  overflow: hidden;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.fileupload .thumbnail > img {
+  display: inline-block;
+  max-height: 100%;
+  vertical-align: middle;
+}
+
+.fileupload .btn {
+  vertical-align: middle;
+}
+
+.fileupload-exists .fileupload-new,
+.fileupload-new .fileupload-exists {
+  display: none;
+}
+
+.fileupload-inline .fileupload-controls {
+  display: inline;
+}
+
+.fileupload-new .input-append .btn-file {
+  -webkit-border-radius: 0 3px 3px 0;
+     -moz-border-radius: 0 3px 3px 0;
+          border-radius: 0 3px 3px 0;
+}
+.browse{
+    float: right;
+    margin-top: 10px;
+}
+.scrollspy-example {
+  height: 120px;
+  overflow: auto;
+  position: relative;
+}
+.scrollspy-example ul{
+    /*border: 2px solid #000;*/
+    padding: 0px;
+    margin-right: 0px;
+}
+.bs-docs-example {
+    position: relative;
+    margin: 15px 0;
+    padding: 39px 19px 14px;
+    background-color: white;
+    border: 1px solid #DDD;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.nav-tabs {
+  border-bottom: none;
+}
+.nav-tabs > li > a:hover {
+  border-color: #fff;
+}
+.nav-tabs > .active > a,
+.nav-tabs > .active > a:hover {
+  color: #555555;
+  cursor: default;
+  background-color: none;
+  border: none;
+  border-bottom-color: transparent;
+}
+.nav > li > a:hover {
+  text-decoration: none;
+  background-color: #fff;
+}
+.audio{list-style: none;}
+
+/*h4{ margin: 5px 0;}*/
+ul{
+  margin: 0 0 0px 0px;
+}
+.nav {
+  margin-bottom: 0px;
+}
+.nav-tabs > li > a,
+.nav-pills > li > a {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: 2px;
+  line-height: 14px;
+}
+.table th,
+.table td {
+  padding: 5px;
+  line-height: 20px;
+  text-align: left;
+  vertical-align: top;
+  border-top: 2px solid #fff;
+}
+#myTab li:active a button{
+    background: black;
+}
+li.active a #us, li.active a #opponent{
+    -webkit-box-shadow: 0 2px 0 #B7B7B7;
+    -moz-box-shadow: 0 2px 0 #B7B7B7;
+    box-shadow: 0 2px 0 #B7B7B7;
+}

@@ -1,0 +1,78 @@
+body {
+	margin:0;
+	padding:0;
+	border:0;			/* This removes the border around the viewport in old versions of IE */
+	width:100%;
+	background:#fff;
+	
+}
+
+.thumbnail-caption
+{
+	text-align:center;
+}
+.number-bg-left{
+}
+
+.number-bg-right{
+
+}
+/*.btn-group > .btn:first-child {
+	-webkit-border-radius: 14px;
+	border-radius: 14px;	
+}*/
+.imagetool{
+	text-align:left;
+	margin-left:4px;
+}
+#category_selector{margin-top:5px;}
+#sub_category_selector{margin-top:5px;}
+#device_selector{margin-top:5px;}
+#addtocard{
+	position: absolute;
+	bottom: 0px;
+	background: url(../images/addtocart.jpg);
+	height: 55px;
+	width: 169px;
+	background-repeat: no-repeat;
+	cursor: hand; 
+	cursor: pointer;
+}
+#addtocardtext{
+	margin-top:20px;
+	margin-right: 50px;
+	text-transform:uppercase;
+	text-align:left;
+	margin-left:4px;
+}
+#prices{
+	position: absolute;
+	right: 170px;
+	width:55px;
+	bottom: 9px;
+	height:22px;
+	padding:3px;
+	background: #4a4a48;
+	color: #fff;
+	
+}
+
+
+#preview-modal{
+	width:550px;
+	height:300px;
+}
+#preview-loading-img{
+	position: absolute;
+	top:135px;
+	left:135px;
+}
+#preview-info{
+	float:left;
+	width:200px;
+}
+#preview-image-container{
+	float:left;
+	width:290px;
+	height:290px;
+}
